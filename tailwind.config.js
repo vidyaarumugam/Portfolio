@@ -4,15 +4,32 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "background": "var(--background)"
+        backgroundOne: "var(--background-one)",
+        backgroundTwo: "var(--background-two)",
+        backgroundHeaderFooter: "var(--background-header-footer)",
+        colorHeaderFooter: "var(--font-color-header-footer)",
+        color : "var(--font-color)",
+        hoverColor: "var(--hover-color)"
       }
     },
     variables:{
       '.dark' : {
-        background: "var(--background)"
+        backgroundOne: "var(--background-one)",
+        backgroundTwo: "var(--background-two)",
+        backgroundHeaderFooter: "var(--background-header-footer)",
+        colorHeaderFooter: "var(--font-color-header-footer)",
+        color : "var(--font-color)",
+        hoverColor: "var(--hover-color)",
+        iconColor: "var(--icon-color)"
       },
       '.light' : {
-        background: "var(--background)"
+        backgroundOne: "var(--background-one)",
+        backgroundTwo: "var(--background-two)",
+        backgroundHeaderFooter: "var(--background-header-footer)",
+        colorHeaderFooter: "var(--font-color-header-footer)",
+        color : "var(--font-color)",
+        hoverColor: "var(--hover-color)",
+        iconColor: "var(--icon-color)"
       }
     }
   },

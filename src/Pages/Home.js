@@ -6,12 +6,12 @@ const Home = () => {
     return (
         <>
             <Header />
-            <div className='flex flex-col bg-background w-full h-screen flex justify-center items-center'>
-                <p className=" text-teal-50 text-3xl">
+            <div className='flex flex-col text-color bg-backgroundOne w-full h-screen flex justify-center items-center'>
+                <p className="text-3xl">
                     I'm Vidya Arumugam
                 </p>
-                <div className=" text-teal-50 text-5xl m-5">
-                    <Typewriter sx={{ color: 'white' }} className="text-teal-50"
+                <div className="text-5xl m-5">
+                    <Typewriter
                         options={{
                             strings: ['Web Developer', 'FrontEnd Developer', 'Data Governance Analyst'],
                             autoStart: true,

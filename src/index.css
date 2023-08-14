@@ -3,16 +3,31 @@
 @import "tailwindcss/utilities";
 
 :root{
-  --background: rgb(15 23 42)
+  --background-one: rgb(15 23 42);
+  --background-two: rgb(30 41 59);
+  --font-color: rgb(240 253 250);
 
 }
 
 .dark{
-  --background: rgb(15 23 42)
+  --background-one: rgb(15 23 42);
+  --background-two: rgb(30 41 59);
+  --background-header-footer: rgb(30 41 59);
+  --font-color-header-footer:rgb(156 163 175);
+  --font-color: rgb(240 253 250);
+  --hover-color: rgb(229 231 235);
+  --icon-color: rgb(209 213 219);
+
 
 }
 .light{
-  --background: #fff
+  --background-one: rgb(226 232 240);
+  --background-two: rgb(209 220 233);
+  --background-header-footer: rgb(191 200 211);
+  --font-color-header-footer:rgb(75 85 99);
+  --font-color: rgb(2 6 23);
+  --hover-color: rgb(3 7 18);
+  --icon-color: rgb(75 85 99);
 }
 
 body {
