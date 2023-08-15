@@ -1,24 +1,33 @@
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import Toggle from '../Components/Toggle';
+import { IconButton } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu'; 
 
 const Header = () => {
-    return(
-    <div className="flex w-full font-medium bg-backgroundHeaderFooter text-colorHeaderFooter">
-        <div className='flex justify-end w-full mr-10'>
-        <a href='/' className='m-3 hover:text-hoverColor'>Home</a>
-        <a href='/' className='m-3 hover:text-hoverColor'>About</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Career</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Experience</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Projects</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Skills</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Awards</a>
-        <a href="/" className='m-3 hover:text-hoverColor'>Contact</a>
-        <Toggle/>
-
-        </div>
-  
-    </div>)
-
+    return (
+        <>
+            <nav className='w-full bg-backgroundHeader text-colorHeaderFooter h-auto'>
+                <div className='block lg:hidden'>
+                    <IconButton>
+                        <MenuIcon className='text-colorHeaderFooter'/>
+                    </IconButton>
+                </div>
+                <div className="block lg:flex flex-grow font-medium  ">
+                    <div className='flex justify-end w-full mr-10 lg:flex-grow'>
+                        <Link to='home' smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Home</Link>
+                        <Link to='contact' smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>About</Link>
+                        <Link to="career" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Career</Link>
+                        <Link to="experience" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Experience</Link>
+                        <Link to="projects" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Projects</Link>
+                        <Link to="skills" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Skills</Link>
+                        <Link to="awards" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Awards</Link>
+                        <Link to="contacts" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Contact</Link>
+                        <Toggle />
+                    </div>
+                </div>
+            </nav>
+        </>
+    )
 }
 
 export default Header;

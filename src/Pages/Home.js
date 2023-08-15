@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <div className='flex flex-col text-color bg-backgroundOne w-full h-screen flex justify-center items-center'>
+            <div id="home" className='flex flex-col text-color bg-backgroundOne w-full h-screen flex justify-center items-center'>
                 <p className="text-3xl">
                     I'm Vidya Arumugam
                 </p>

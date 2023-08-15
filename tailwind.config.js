@@ -6,30 +6,37 @@ module.exports = {
       colors:{
         backgroundOne: "var(--background-one)",
         backgroundTwo: "var(--background-two)",
-        backgroundHeaderFooter: "var(--background-header-footer)",
+        backgroundHeader: "var(--background-header)",
+        backgroundFooter: "var(--background-footer)",
         colorHeaderFooter: "var(--font-color-header-footer)",
         color : "var(--font-color)",
-        hoverColor: "var(--hover-color)"
+        hoverColor: "var(--hover-color)",
+        headingColor: "var(--font-color-heading)",
+        iconColor: "var(--icon-color)",
       }
     },
     variables:{
       '.dark' : {
         backgroundOne: "var(--background-one)",
         backgroundTwo: "var(--background-two)",
-        backgroundHeaderFooter: "var(--background-header-footer)",
+        backgroundHeader: "var(--background-header)",
+        backgroundFooter: "var(--background-footer)",
         colorHeaderFooter: "var(--font-color-header-footer)",
         color : "var(--font-color)",
         hoverColor: "var(--hover-color)",
-        iconColor: "var(--icon-color)"
+        iconColor: "var(--icon-color)",
+        headingColor: "var(--font-color-heading)"
       },
       '.light' : {
         backgroundOne: "var(--background-one)",
         backgroundTwo: "var(--background-two)",
-        backgroundHeaderFooter: "var(--background-header-footer)",
+        backgroundHeader: "var(--background-header)",
+        backgroundFooter: "var(--background-footer)",
         colorHeaderFooter: "var(--font-color-header-footer)",
         color : "var(--font-color)",
         hoverColor: "var(--hover-color)",
-        iconColor: "var(--icon-color)"
+        iconColor: "var(--icon-color)",
+        headingColor: "var(--font-color-heading)"
       }
     }
   },
