@@ -16,10 +16,10 @@ const Header = () => {
                     <div className='flex justify-end w-full mr-10 lg:flex-grow'>
                         <Link to='home' smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Home</Link>
                         <Link to='contact' smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>About</Link>
-                        <Link to="career" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Career</Link>
                         <Link to="experience" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Experience</Link>
-                        <Link to="projects" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Projects</Link>
                         <Link to="skills" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Skills</Link>
+                        <Link to="projects" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Projects</Link>
+                        <Link to="education" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Education</Link>
                         <Link to="awards" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Awards</Link>
                         <Link to="contacts" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Contact</Link>
                         <Toggle />
