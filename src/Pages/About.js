@@ -3,7 +3,7 @@ import Photo from "../Assets/mypic.jpg"
 const About = () => {
     return (<div id="contact" className="bg-backgroundTwo w-full h-screen text-color flex justify-center items-center p-10">
         <div className="m-10 w-fit">
-            <div className="text-headingColor font-bold font-sans text-lg flex mb-10">
+            <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                 ABOUT ME
             </div>
             <div className="flex flex-row">
