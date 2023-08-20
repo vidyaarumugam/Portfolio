@@ -1,19 +1,19 @@
-import React from "../Assets/React.svg.png";
-import Html from "../Assets/HTML.png";
-import Css from "../Assets/CSS3.svg.png";
-import JavaScript from "../Assets/JavaScript.png";
-import Bootstrap from "../Assets/Bootstrap.svg.png";
-import Tailwind from "../Assets/Tailwind-css.png";
-import Php from "../Assets/Php.svg.png";
-import RestApi from "../Assets/RestApi.png";
-import Python from "../Assets/Python.svg.png";
-import MySQL from "../Assets/MySQL.png";
-import Oracle from "../Assets/Oracle.png";
-import Azure from "../Assets/Azure.svg.png";
-import Purview from "../Assets/Purview.png";
-import Git from "../Assets/Git.png";
-import Jira from "../Assets/Jira.png";
-import Powershell from "../Assets/Powershell.png";
+import React from "../Assets/React.svg.webp";
+import Html from "../Assets/HTML.webp";
+import Css from "../Assets/CSS3.svg.webp";
+import JavaScript from "../Assets/JavaScript.webp";
+import Bootstrap from "../Assets/Bootstrap.svg.webp";
+import Tailwind from "../Assets/Tailwind-css.webp";
+import Php from "../Assets/Php.svg.webp";
+import RestApi from "../Assets/RestApi.webp";
+import Python from "../Assets/Python.svg.webp";
+import MySQL from "../Assets/MySQL.webp";
+import Oracle from "../Assets/Oracle.webp";
+import Azure from "../Assets/Azure.svg.webp";
+import Purview from "../Assets/Purview.webp";
+import Git from "../Assets/Git.webp";
+import Jira from "../Assets/Jira.webp";
+import Powershell from "../Assets/Powershell.webp";
 
 const Skills = () => {
     return (

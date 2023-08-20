@@ -1,4 +1,4 @@
-import Photo from "../Assets/mypic.jpg"
+import Photo from "../Assets/mypic.webp"
 
 const About = () => {
     return (<div id="contact" className="bg-backgroundTwo w-full h-screen text-color flex justify-center items-center p-10">
