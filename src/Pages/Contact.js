@@ -9,8 +9,6 @@ const Contacts = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-
-
     const submitHandler = (e) => {
         e.preventDefault();
         const user = {

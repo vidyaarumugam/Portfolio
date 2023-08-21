@@ -7,9 +7,9 @@ import { ThemeContext } from './Services/Theme';
 import Experience from './Pages/Experience';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
-import Awards from './Pages/Awards';
 import Contacts from './Pages/Contact';
 import Education from './Pages/Education';
+import Achievements from './Pages/Achievements';
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
         <Skills/>
         <Projects/>
         <Education/>        
-        <Awards/>
+        <Achievements/>
         <Contacts/>
         <Footer />
       </div>

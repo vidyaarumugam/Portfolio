@@ -20,7 +20,7 @@ const Header = () => {
                         <Link to="skills" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Skills</Link>
                         <Link to="projects" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Projects</Link>
                         <Link to="education" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Education</Link>
-                        <Link to="awards" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Awards</Link>
+                        <Link to="achievements" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Achievements</Link>
                         <Link to="contacts" smooth={true} className='m-3 hover:text-hoverColor hover:cursor-pointer'>Contact</Link>
                         <Toggle />
                     </div>
