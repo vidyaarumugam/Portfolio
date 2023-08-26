@@ -10,25 +10,25 @@ const Education = () => {
                     EDUCATION
                 </div>
                 <div className="flex flex-row w-full">
-                    <div className="bg-backgroundOne p-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
-                        <div><SchoolIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3'/></div>
-                        <div>
+                    <div className="bg-backgroundOne px-5 py-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
+                        <div><SchoolIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3' /></div>
+                        <div className='text-headingColor font-mono font-bold text-lg'>
                             Bachelor of Engineering (Computer)
                         </div>
                         <div>Mumbai University</div>
                         <div>2021</div>
                     </div>
-                    <div className="bg-backgroundOne p-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
-                    <div><StarIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3'/></div>
-                        <div>
+                    <div className="bg-backgroundOne px-5 py-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
+                        <div><StarIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3' /></div>
+                        <div className='text-headingColor font-mono font-bold text-lg'>
                             HSC
                         </div>
                         <div>Maharashtra State Board</div>
                         <div>2017</div>
                     </div>
-                    <div className="bg-backgroundOne p-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
-                    <div><LibraryBooksIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3'/></div>
-                        <div>
+                    <div className="bg-backgroundOne px-5 py-10 m-3 w-2/6 flex flex-col justify-center items-center rounded-lg">
+                        <div><LibraryBooksIcon sx={{ fontSize: 50 }} className='text-iconColor mx-5 my-3' /></div>
+                        <div className='text-headingColor font-mono font-bold text-lg'>
                             SSC
                         </div>
                         <div>Maharashtra State Board</div>
