@@ -33,7 +33,7 @@ const Contacts = () => {
                         <input type="text" placeholder="Name*" required value={name} onChange={(e) => setName(e.target.value)} className="p-3 bg-backgroundTwo m-3 w-11/12" />
                         <input type="email" placeholder="Email*" required value={email} onChange={(e) => setEmail(e.target.value)} className="p-3 bg-backgroundTwo m-3 w-11/12" />
                         <textarea type="text" rows="5" placeholder="Your Message*" required value={message} onChange={(e) => setMessage(e.target.value)} className="p-3 w-11/12 bg-backgroundTwo m-3" />
-                        <button type="submit" className="p-2 bg-backgroundTwo mt-3 w-28 border-2 border-backgroundTwo hover:border-white">SEND</button>
+                        <button type="submit" className="p-2 bg-backgroundTwo mt-3 w-28 border-2 font-bold border-backgroundTwo hover:border-white">SEND</button>
                     </form>
                 </div>
 

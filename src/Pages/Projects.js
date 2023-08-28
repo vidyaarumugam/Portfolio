@@ -17,7 +17,7 @@ const Projects = () => {
                             application for students as well as teachers, to keep track of all activities regarding the project
                         </p>
                         <div className='mx-5 my-4'>
-                            <a href="https://ieeexplore.ieee.org/document/9544565" target="_blank" rel="noreferrer" className='px-3 py-1 text-headingColor hover:bg-backgroundOne'>READ MORE</a>
+                            <a href="https://ieeexplore.ieee.org/document/9544565" target="_blank" rel="noreferrer" className='px-3 py-1 text-headingColor hover:bg-backgroundOne font-bold'>READ MORE</a>
                         </div>
                     </div>
                     <div className='m-10 bg-backgroundTwo w-96 rounded-lg'>
@@ -27,7 +27,7 @@ const Projects = () => {
                             Developed a restaurant website that offers menu, cart feature and seamless integration with payment gateway
                         </p>
                         <div className='mx-5 my-4'>
-                            <a href="https://github.com/vidyaarumugam/Restaurant-Website" target="_blank" rel="noreferrer" className='px-3 py-1 text-headingColor hover:bg-backgroundOne'>VISIT CODE</a>
+                            <a href="https://github.com/vidyaarumugam/Restaurant-Website" target="_blank" rel="noreferrer" className='px-3 py-1 text-headingColor hover:bg-backgroundOne font-bold'>VISIT CODE</a>
                         </div>
                     </div>
                 </div>

@@ -2,47 +2,48 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import {
     EmojiEvents,
-    WorkspacePremium
+    WorkspacePremium,
+    Star
 }
     from '@mui/icons-material';
 
 const Achievements = () => {
     const data = [
         {
-            icon: <EmojiEvents />,
+            icon: <EmojiEvents fontSize="inherit" sx={{color:"#ada029"}} />,
             type: 'RECOGNITION',
             award: [
-                { name: 'Secured 1st Rank in Second Year Computer Engineering' },
-                { name: 'Secured 1st Rank in Final Year Computer Engineering' },
-                { name: 'Contextual Master Award at TCS' },
-                { name: 'On the Spot (Team) [4] Award at TCS' },
-                { name: 'Learning Achievement Award at TCS' }
+                [{ name: '1st Rank in 2nd Year B.E' }, { name: 'Contextual Master Award at TCS' }, { name: 'On the Spot (Team) [3] Award at TCS' }],
+                [{ name: '1st Rank in Final Year B.E' }, { name: 'Learning Achievement Award at TCS' }, { name: 'On the Spot Award at TCS' }],
+
             ]
         },
         {
-            icon: <WorkspacePremium />,
+            icon: <WorkspacePremium fontSize="inherit" sx={{color: "#ada029"}} />,
             type: 'MICROSOFT CERTIFICATION',
             award: [
-                { name: 'Azure Fundamentals (AZ-900)' },
-                { name: 'Azure Data Fundamentals (DP-900)' },
-                { name: 'Azure AI Fundamentals (AI-900)' },
-                { name: 'Azure Data Engineer Associate (DP-203)' },
-                { name: 'Azure Cosmos DB Developer Specialty (DP-420)' },
-                { name: 'MTA: Introduction to Programming Using Python' }
+                [{ name: 'Azure Fundamentals' },
+                { name: 'Azure Data Engineer Associate' },
+                { name: 'Azure Cosmos DB Developer Specialty' }
+                ],
+                [{ name: 'Azure Data Fundamentals' },
+                { name: 'Azure AI Fundamentals' },
+                { name: 'MTA: Introduction to Programming Using Python' }]
             ]
         },
         {
-            icon: <WorkspacePremium />,
+            icon: <WorkspacePremium fontSize="inherit" sx={{color: "#ada029"}} />,
             type: 'HACKERRANK CERTIFICATION',
             award: [
                 { name: 'React' },
-                { name: 'CSS' },
+                { name: 'Cascading Style Sheets (CSS)' },
                 { name: 'JavaScript' },
                 { name: 'Python' },
-                { name: 'SQL (Intermediate)' },
-                { name: 'Rest API (Intermediate)' },
-                { name: 'Java' },
-                { name: 'Problem Solving' }
+                { name: 'Problem Solving' },
+                { name: 'Rest API' },
+                { name: 'Structured Query Language (SQL)' },
+                { name: 'Java' }
+
             ]
         }
     ]
@@ -52,44 +53,41 @@ const Achievements = () => {
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     ACHIEVEMENTS
                 </div>
-                <Carousel>
-                    {data.map((element, index) => {
-                        return (
-                            <div className="flex justify-center h-full">
-                                <div key={index} className="w-6/12 flex items-center flex-col bg-backgroundTwo p-10 rounded-lg shadow-2xl shadow-gray-900/95">
-                                    <div className="material-symbols-rounded text-gray-400 w-20 h-20 rounded-full bg-backgroundOne">{element.icon}</div>
-                                    <div className="text-headingColor font-mono font-bold text-2xl my-3">{element.type}</div>
-                                    {element.award.map((element1, index1) => {
-                                        return <div className="leading-relaxed">
-                                            {element1.name}
+                <div className="w-8/12">
+                    <Carousel showThumbs={false} autoPlay="true" interval={3000} infiniteLoop={true} showArrows={false} showStatus={false}>
+                        {data.map((element, index) => {
+                            return (
+                                <div className="flex justify-center h-full">
+                                    <div key={index} className="w-full flex items-center flex-col bg-backgroundTwo p-5 rounded-lg">
+                                        <div style={{ "fontSize": 45 }} className="material-symbols-rounded w-20 h-20 rounded-full bg-backgroundOne">
+                                            {element.icon}
                                         </div>
+                                        <div className="text-headingColor font-mono font-bold text-2xl my-3 mb-5">
+                                            {element.type}
+                                        </div>
+                                        <div className="row flex flex-wrap mb-3 mx-8">
+                                            {element.award.map((element1, index1) => {
+                                                if (Array.isArray(element1)) {
+                                                    return <div className="column" key={index1}>
+                                                        {element1.map((element2, index2) => <div key={index2} className="flex flex-row leading-relaxed text-start p-2 mx-2 mb-3 bg-backgroundOne rounded-lg items-center">
+                                                            <Star sx={{ fontSize: "medium" }} className="mr-1" />{element2.name}
+                                                        </div>
+                                                        )}
+                                                    </div>
+                                                }
+                                                return <div className="leading-relaxed p-2 mx-2 mb-5 bg-backgroundOne rounded-lg">
+                                                    {element1.name}
+                                                </div>
 
-                                    })}
+                                            })}
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        )
-                    })}
+                            )
+                        })}
 
-                </Carousel>
-
-                {/* <div className="flex flex-row w-full justify-center">
-                    <IconButton>
-                        <ArrowBack sx={{ fontSize: 35 }} className='text-iconColor hover:text-hoverColor mx-5' />
-                    </IconButton>
-                    {data.map((element, index) => {
-                        return (
-
-                        <Card key={index}>
-                            <span className="material-symbols-rounded text-gray-400 mr-3">{element.icon}</span>
-                            {element.award}
-                        </Card>
-                        )
-                    })}
-
-                    <IconButton>
-                        <ArrowForward sx={{ fontSize: 35 }} className='text-iconColor hover:text-hoverColor mx-5' />
-                    </IconButton>
-                </div> */}
+                    </Carousel>
+                </div>
             </div>
         </>
     )

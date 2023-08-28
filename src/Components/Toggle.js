@@ -12,7 +12,7 @@ function Toggle() {
                     <div onClick={() => toggleHandler()} className='flex flex-row w-16 mt-0.5'>
                         <div className={`border-2 w-6 absolute border-none h-6 rounded-full bg-colorHeaderFooter ${mode === "dark" ? 'ml-1' : 'ml-9'} `}></div>
                         <div className='flex flex-row justify-evenly w-16'>
-                            <LightModeIcon className='text-colorHeaderFooter' />
+                            <LightModeIcon className={`text-colorHeaderFooter ${mode === "light" && 'hidden'}`} />
                             <DarkModeIcon className='text-colorHeaderFooter' />
                         </div>
                     </div>

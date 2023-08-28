@@ -38,10 +38,10 @@ const Experience = () => {
                             contentStyle={{ background: "var(--background-two)", color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  var(--background-two)' }}
                             iconStyle={{ background: 'var(--background-two)', color: '#fff' }}
-                            icon={<Work/>}
+                            icon={<Work sx={{color: "#AAC8A7"}}/>}
                         >
                             <div className="text-headingColor font-mono text-2xl my-2">{e.role}</div>
-                            <div className="">{e.date}</div>
+                            <div className=" text-color">{e.date}</div>
                             <div className='text-colorHeaderFooter'>{e.company}</div>
                         </VerticalTimelineElement>
                 

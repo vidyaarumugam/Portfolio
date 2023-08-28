@@ -23,10 +23,14 @@
 
 }
 .light{
-  --background-one: rgb(226 232 240);
-  --background-two: rgb(209 220 233);
-  --background-header: rgb(191 200 211);
-  --background-footer: rgb(191 200 211);
+  /* --background-one: rgb(226 232 240); #D9E4DD */
+  --background-one:  #C4DFDF;
+  --background-two: #E3F4F4;
+  /* --background-two: #FBF7F0; */
+  /* --background-header: rgb(191 200 211); */
+  /* --background-footer: rgb(191 200 211); */
+  --background-header: #99bbbb;
+  --background-footer: #99bbbb;
   --font-color-header-footer:rgb(75 85 99);
   --font-color: rgb(2 6 23);
   --font-color-heading: rgb(30 64 175);
