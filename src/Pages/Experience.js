@@ -1,6 +1,6 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {Work} from '@mui/icons-material';
+import { Work } from '@mui/icons-material';
 
 const Experience = () => {
 
@@ -25,10 +25,9 @@ const Experience = () => {
         },
     ];
 
-
     return (
         <>
-            <div id="experience" className="text-color bg-backgroundOne w-full h-fit p-10 flex flex-col justify-center items-center">
+            <div id="experience" className="text-color bg-backgroundOne w-full h-fit md:h-screen lg:h-fit p-10 flex flex-col justify-center items-center">
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     EXPERIENCE
                 </div>
@@ -38,19 +37,17 @@ const Experience = () => {
                             contentStyle={{ background: "var(--background-two)", color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  var(--background-two)' }}
                             iconStyle={{ background: 'var(--background-two)', color: '#fff' }}
-                            icon={<Work sx={{color: "#AAC8A7"}}/>}
+                            icon={<Work sx={{ color: "#AAC8A7" }} />}
                         >
                             <div className="text-headingColor font-mono text-2xl my-2">{e.role}</div>
                             <div className=" text-color">{e.date}</div>
                             <div className='text-colorHeaderFooter'>{e.company}</div>
                         </VerticalTimelineElement>
-                
                     })}
-</VerticalTimeline>
+                </VerticalTimeline>
             </div>
         </>
     )
-
 }
 
 export default Experience;

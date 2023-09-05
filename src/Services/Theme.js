@@ -18,13 +18,6 @@ const ThemeProvider = ({ children }) => {
 
     const [mode, setMode] = useState(getTheme);
 
-    const toggleHandler = () => {
-        if (mode === "dark")
-            setMode("light")
-        else
-            setMode("dark")
-    }
-
     useEffect(() => {
         const refreshTheme = () => {
             localStorage.setItem("mode", mode)
@@ -36,9 +29,8 @@ const ThemeProvider = ({ children }) => {
 
     return (
         <ThemeContext.Provider
-            value={{ mode, setMode, toggleHandler }}
+            value={{ mode, setMode }}
         >{children}
-
         </ThemeContext.Provider>
     )
 }

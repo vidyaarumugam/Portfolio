@@ -1,4 +1,3 @@
-import './App.css';
 import Footer from './Layouts/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -28,7 +27,6 @@ function App() {
         <Contacts/>
         <Footer />
       </div>
-
     </>
   );
 }
