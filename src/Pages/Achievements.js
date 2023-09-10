@@ -80,7 +80,7 @@ const Achievements = () => {
                                                 }
                                                 else if (element1.image)
                                                     return <div key={index1} className="flex flex-row flex-wrap">
-                                                        <img src={element1.image} alt={element1.image} className=" h-24 md:h-32 lg:h-32 m-2" />
+                                                        <img src={element1.image} alt={element1.image} style={{ width: 'auto' }} className="h-24 md:h-32 lg:h-32 m-2" />
                                                     </div>
                                                 return <div key={index1} className="leading-relaxed p-2 mx-2 mb-5 bg-backgroundOne rounded-lg">
                                                     {element1.name}
