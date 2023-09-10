@@ -8,10 +8,10 @@ const Home = () => {
             <Header />
             <div id="home" className='flex flex-col text-color bg-backgroundOne w-full h-screen flex justify-center items-center'>
                 <div className="flex justify-center flex-col items-center">
-                    <p className="text-xl md:text-2xl lg:text-3xl">
+                    <p className="text-2xl md:text-2xl lg:text-3xl">
                         I'm Vidya Arumugam
                     </p>
-                    <div className="text-2xl md:text-4xl lg:text-5xl my-5">
+                    <div className="text-3xl md:text-4xl lg:text-5xl my-5">
                         <Typewriter
                             options={{
                                 strings: ['Web Developer', 'FrontEnd Developer', 'Data Governance Analyst'],

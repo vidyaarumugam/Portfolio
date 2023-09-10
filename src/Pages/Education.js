@@ -5,7 +5,7 @@ import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 const Education = () => {
     return (
         <>
-            <div id="education" className="text-color bg-backgroundTwo w-full h-fit md:h-screen lg:h-screen p-10 flex flex-col justify-center items-center">
+            <div id="education" className="text-color bg-backgroundTwo w-full h-fit md:h-screen lg:h-screen p-10 flex flex-col justify-center items-center pt-16 md:pt-0 lg:pt-0">
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     EDUCATION
                 </div>

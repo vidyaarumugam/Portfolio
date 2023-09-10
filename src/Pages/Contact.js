@@ -27,7 +27,7 @@ const Contacts = () => {
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     CONTACT ME
                 </div>
-                <div className="bg-backgroundOne p-10 w-11/12 lg:w-7/12 rounded-lg">
+                <div className="bg-backgroundOne p-5 lg:p-10 w-12/12 lg:w-7/12 rounded-lg">
                     <form onSubmit={submitHandler} className="flex flex-col items-center">
                         <input type="text" placeholder="Name*" required value={name} onChange={(e) => setName(e.target.value)} className="p-3 bg-backgroundTwo m-3 w-11/12" />
                         <input type="email" placeholder="Email*" required value={email} onChange={(e) => setEmail(e.target.value)} className="p-3 bg-backgroundTwo m-3 w-11/12" />

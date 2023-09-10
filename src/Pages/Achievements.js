@@ -30,13 +30,14 @@ const Achievements = () => {
             type: 'HACKERRANK CERTIFICATION',
             award: [
                 { name: 'React' },
-                { name: 'Cascading Style Sheets (CSS)' },
                 { name: 'JavaScript' },
+                { name: 'Cascading Style Sheets (CSS)' },
                 { name: 'Python' },
-                { name: 'Problem Solving' },
                 { name: 'Rest API' },
+                { name: 'Java' },
+                { name: 'Problem Solving' },
                 { name: 'Structured Query Language (SQL)' },
-                { name: 'Java' }
+                
             ]
         },
         {
@@ -50,7 +51,7 @@ const Achievements = () => {
     ]
     return (
         <>
-            <div id="achievements" className="text-color bg-backgroundOne w-full h-fit md:h-screen lg:h-screen p-10 flex flex-col justify-center items-center">
+            <div id="achievements" className="text-color bg-backgroundOne w-full h-fit md:h-screen lg:h-screen py-10 px-3 md:px-10 lg:px-10 flex flex-col justify-center items-center pt-16 md:pt-0 lg:pt-0">
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     ACHIEVEMENTS
                 </div>
@@ -59,14 +60,14 @@ const Achievements = () => {
                         {data.map((element, index) => {
                             return (
                                 <div key={index} className="flex justify-center h-full">
-                                    <div className="w-full flex items-center flex-col bg-backgroundTwo p-5 rounded-lg">
-                                        <div style={{ "fontSize": 45 }} className="material-symbols-rounded w-20 h-20 rounded-full bg-backgroundOne">
+                                    <div className="w-full flex items-center flex-col bg-backgroundTwo py-3 rounded-lg">
+                                        <div style={{ "fontSize": 45 }} className="material-symbols-rounded flex justify-center items-center w-20 h-20 rounded-full bg-backgroundOne">
                                             {element.icon}
                                         </div>
-                                        <div className="text-headingColor font-mono font-bold text-2xl my-3 mb-5">
+                                        <div className="text-headingColor font-mono font-bold text-lg md:text-2xl lg:text-2xl my-3 mb-5">
                                             {element.type}
                                         </div>
-                                        <div className="row flex flex-wrap justify-center mb-3 mx-8">
+                                        <div className="row flex flex-wrap justify-center mb-3 mx-2 md:mx-8 lg:mx-8">
                                             {element.award.map((element1, index1) => {
 
                                                 if (Array.isArray(element1)) {
@@ -79,7 +80,7 @@ const Achievements = () => {
                                                 }
                                                 else if (element1.image)
                                                     return <div key={index1} className="flex flex-row flex-wrap">
-                                                        <img src={element1.image} alt={element1.image} className="h-32 m-2" />
+                                                        <img src={element1.image} alt={element1.image} className=" h-24 md:h-32 lg:h-32 m-2" />
                                                     </div>
                                                 return <div key={index1} className="leading-relaxed p-2 mx-2 mb-5 bg-backgroundOne rounded-lg">
                                                     {element1.name}

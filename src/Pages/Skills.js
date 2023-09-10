@@ -18,7 +18,7 @@ import Powershell from "../Assets/Powershell.webp";
 const Skills = () => {
     return (
         <>
-            <div id="skills" className="text-color bg-backgroundTwo w-full h-fit md:h-screen lg:h-screen p-10 flex flex-col justify-center items-center">
+            <div id="skills" className="text-color bg-backgroundTwo w-full h-fit md:h-screen lg:h-screen p-10 flex flex-col justify-center items-center pt-16 md:pt-0 lg:pt-0">
                 <div className="text-headingColor font-bold font-sans text-3xl flex mb-10">
                     SKILLS
                 </div>
@@ -57,7 +57,7 @@ const Skills = () => {
                     </div>
                     <div className="m-5 h-30 w-28 flex items-center flex-col">
                         <img src={RestApi} alt="Rest API" className="h-10 lg:h-20" />
-                        <span className="m-3 font-mono text-xl">Rest API</span>
+                        <span className="m-3 font-mono text-center text-xl">Rest API</span>
                     </div>
                     <div className="m-5 h-30 w-28 flex items-center flex-col">
                         <img src={Php} alt="PHP" className="h-10 lg:h-20" />

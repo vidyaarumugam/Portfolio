@@ -34,7 +34,7 @@ const Header = () => {
 
     return (
         <>
-            <AppBar position="static" sx={{ background: "var(--background-header)", color: "var(--font-color-header-footer)" }}>
+            <AppBar sx={{ background: "var(--background-header)", color: "var(--font-color-header-footer)", position: "sticky" }}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

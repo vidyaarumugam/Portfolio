@@ -19,10 +19,6 @@ const Footer = () => {
                         <MailOutlineIcon sx={{ fontSize: 35 }} className='text-iconColor hover:text-[#f14336] mx-5 my-3' />
                     </IconButton>
                 </div>
-                <hr className="w-11/12 m-auto" />
-                <div className="text-sm m-2">
-                    Copyright &copy;2023 Vidya Arumugam
-                </div>
             </div>
         </>
     )
