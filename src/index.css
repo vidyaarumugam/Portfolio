@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -19,7 +20,7 @@
   --background-one: rgb(15 23 42);
   --background-two: rgb(30 41 59);
   --background-header: rgb(30 41 59);
-  --background-footer: rgb(15 23 42);
+  --background-footer: rgb(30 41 59);
   --font-color-header-footer:rgb(156 163 175);
   --font-color: rgb(240 253 250);
   --font-color-heading: rgb(147 197 253);
@@ -27,10 +28,14 @@
   --icon-color: rgb(75 85 99);
 }
 .light{
-  --background-one:  #C4DFDF;
-  --background-two: #E3F4F4;
-  --background-header: #99bbbb;
-  --background-footer: #99bbbb;
+  /* --background-one:  #C4DFDF; */
+  --background-one: rgb(243, 244, 246); 
+  /* --background-two: #E3F4F4; */
+  --background-two: rgb(229, 231, 235);
+  /* --background-header: #99bbbb; */
+  --background-header: rgb(212, 215, 220);
+  /* --background-footer: #99bbbb; */
+  --background-footer: rgb(212, 215, 220);
   --font-color-header-footer:rgb(75 85 99);
   --font-color: rgb(2 6 23);
   --font-color-heading: rgb(30 64 175);

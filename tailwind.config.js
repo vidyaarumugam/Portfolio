@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -38,7 +39,10 @@ module.exports = {
         iconColor: "var(--icon-color)",
         headingColor: "var(--font-color-heading)"
       }
-    }
+    },
+    fontFamily: {
+        sacramento: ['Charm', 'cursive'],
+    },
   },
   plugins: [],
 }
