@@ -6,7 +6,6 @@ import { ThemeContext } from './Services/Theme';
 import Experience from './Pages/Experience';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
-import Contacts from './Pages/Contact';
 import Education from './Pages/Education';
 import Achievements from './Pages/Achievements';
 
@@ -24,7 +23,6 @@ function App() {
         <Projects/>
         <Education/>        
         <Achievements/>
-        <Contacts/>
         <Footer />
       </div>
     </>
