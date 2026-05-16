@@ -18,8 +18,7 @@ const Header = () => {
     { name: 'Skills', to: "skills" },
     { name: 'Projects', to: "projects" },
     { name: 'Education', to: "education" },
-    { name: 'Achievements', to: "achievements" },
-    { name: 'Contacts', to: "contacts" }
+    { name: 'Achievements', to: "achievements" }
     ];
 
     const [anchorElNav, setAnchorElNav] = useState(null);

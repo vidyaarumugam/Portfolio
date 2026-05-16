@@ -3,7 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 import AZ900 from '../Assets/AZ900.webp';
 import AI900 from '../Assets/AI900.webp';
 import DP900 from '../Assets/DP900.webp';
-import DP203 from '../Assets/DP203.webp'
 import DP420 from '../Assets/DP420.webp';
 import {
     EmojiEvents,
@@ -18,8 +17,9 @@ const Achievements = () => {
             icon: <WorkspacePremium fontSize="inherit" sx={{ color: "#ada029" }} />,
             type: 'MICROSOFT CERTIFICATION',
             award: [
+                // { image: SC900 },
                 { image: AZ900 },
-                { image: DP203 },
+                // { image: DP203 },
                 { image: DP900 },
                 { image: AI900 },
                 { image: DP420 }
@@ -44,8 +44,8 @@ const Achievements = () => {
             icon: <EmojiEvents fontSize="inherit" sx={{ color: "#ada029" }} />,
             type: 'RECOGNITION',
             award: [
-                [{ name: '1st Rank in 2nd Year B.E' }, { name: 'Contextual Master Award at TCS' }, { name: 'On the Spot (Team) [3] Award at TCS' }],
-                [{ name: '1st Rank in Final Year B.E' }, { name: 'Learning Achievement Award at TCS' }, { name: 'On the Spot Award at TCS' }],
+                [{ name: '1st Rank - Second & Final Year B.E' }, { name: '2x Achiever Extraordinaire at EY' }, { name: 'GDS User Recognition at EY' }],
+                [{ name: '4x On the Spot Award at TCS' }, { name: 'Contextual Master Award at TCS' }, { name: 'Learning Achievement Award at TCS' }],
             ]
         }
     ]

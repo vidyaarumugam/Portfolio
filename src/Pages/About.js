@@ -8,10 +8,9 @@ const About = () => {
             </div>
             <div className="flex flex-row">
                 <div className="leading-7 tracking-wide text-base md:text-base lg:text-lg">
-                    I'm Vidya Arumugam, a 23 year old Front End Developer & Data Governance Analyst based in Mumbai, India.
-                    Currently working in one of the top Big Tech (India) Company.
-                    As a developer, I am in a perpetual state of learning and growth.
-                    Each project is an opportunity to challenge myself, refine my skills, and deliver software solutions that merge functionality with elegance.
+                    Hi, I'm Vidya Arumugam. I'm a Data Governance Specialist and Front End Developer based in Mumbai, Maharashtra, India.
+                    I currently work at a Big 4 Firm. <br></br> <br></br>
+                    I have a deep passion for development and am in a constant state of learning and growth, viewing every opportunity as a chance to challenge myself, refine my expertise, and deliver meaningful, high-quality work.
                 </div>
             </div>
         </div>

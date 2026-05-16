@@ -7,18 +7,24 @@ const Experience = () => {
     const timeline = [
         {
             id: 1,
-            date: 'JUL 2021 - Present',
-            role: 'Developer',
-            company: 'Tata Consultancy Services, Mumbai - India'
+            date: 'Nov 2024 - Present',
+            role: 'Senior Security Consultant',
+            company: 'EY GDS, Mumbai - India'
         },
         {
             id: 2,
+            date: 'JUL 2021 - OCT 2024',
+            role: 'Systems Engineer',
+            company: 'Tata Consultancy Services, Mumbai - India'
+        },
+        {
+            id: 3,
             date: 'DEC 2019 - JAN 2020',
             role: 'Web Development Intern',
             company: 'Shah & Anchor Kutchhi Engineering College, Mumbai - India'
         },
         {
-            id: 3,
+            id: 4,
             date: 'AUG 2019 - OCT 2019',
             role: 'Web Development Intern',
             company: 'The Horizon Technologies, Mumbai - India'
